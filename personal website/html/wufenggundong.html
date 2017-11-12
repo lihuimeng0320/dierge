@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>无缝滚动</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        ul{
+            width:880px;
+            position:absolute;
+        }
+
+        li{
+            list-style: none;
+            width:100px;
+            height:100px;
+            background:aquamarine;
+            float:left;
+            margin-right:10px;
+            text-align: center;
+            line-height: 100px;
+
+        }
+        #container{
+            width:300px;
+            height:200px;
+            border:1px solid lawngreen;
+            overflow:hidden;
+            position:relative;
+            top:200px;
+            left:500px;
+
+        }
+        #left,#right{
+            background:aqua;
+            height:30px;
+            width:60px;
+            position:absolute;
+            top:140px;
+            text-align:center;
+            line-height:30px;
+            cursor: pointer;
+        }
+        #left{
+            left:20px;
+        }
+        #right{
+            right:20px;
+        }
+
+    </style>
+</head>
+<body>
+<div id="container">
+    <ul id="mm">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+    </ul>
+    <div id="left">向左</div>
+    <div id="right">向右</div>
+</div>
+<script>
+    var speed=5;
+    oLeft=document.getElementById("left");
+    oRight=document.getElementById("right");
+    oLI=document.getElementById("mm");
+    var int1;
+    var int2;
+    oLeft.onclick=function(){
+        clearInterval(int2);
+        int1 =  setInterval(function(){
+            oLI.style.left =oLI.offsetLeft -speed+"px";
+            console.log(oLI.style.left);
+            if( -oLI.offsetLeft>=440){
+                oLI.style.left=0;
+            }
+        },100)
+    };
+
+    oRight.onclick=function(){
+        clearInterval(int1);
+        int2 =  setInterval(function(){
+            oLI.style.left=oLI.offsetLeft +speed+"px";
+            if( oLI.offsetLeft>0){
+                oLI.style.left=-440+"px";
+            }
+        },100)
+    };
+
+
+</script>
+</body>
+</html>
