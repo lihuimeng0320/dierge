@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>hhxx</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            list-style: none;
+        }
+        .prize{
+            color:darkblue;
+            background:aqua;
+            border:solid #ccc 1px;
+            width:200px;
+            height:40px;
+            text-align:center;
+            line-height:40px;
+            cursor:pointer;
+        }
+        .display{
+            display:none;
+            color: palevioletred;
+            background:aquamarine;
+            width:202px;
+            height:60px;
+            text-align:center;
+            line-height:20px;
+            cursor:pointer;
+        }
+        li:hover{
+            background:paleturquoise;
+        }
+    </style>
+</head>
+<body>
+<div id="position">
+
+    <h3 class="prize">奖学金的构成</h3>
+    <ul class="display">
+        <li>努力</li>
+        <li>汗水</li>
+        <li>拼搏</li>
+    </ul>
+    <h3 class="prize">美女的构成</h3>
+    <ul class="display">
+        <li>脸蛋</li>
+        <li>脸蛋</li>
+        <li>脸蛋</li>
+    </ul>
+</div>
+<script src="jquery-1.11.2.js"></script>
+<script>
+    $(function(){
+        $("#position h3").on("click",function(){
+            $(this).next().stop(false,true).slideToggle(500);
+        });
+    });
+
+
+</script>
+</body>

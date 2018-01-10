@@ -8,7 +8,7 @@ var time=setInterval(function(){
     }
     aa.style.width=aa.offsetWidth+10+"px";
 },40);
-var oTop = document.getElementById("top");
+var oTop = document.getElementById("line");
 oTop.onclick = function(){
     var timer = setInterval(function(){
         var iScrollTop = document.body.scrollTop || document.documentElement.scrollTop;
