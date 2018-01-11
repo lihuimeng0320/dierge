@@ -1,0 +1,27 @@
+header{
+	line-height: 1rem;
+	background:rgba(33,20,0,.9);
+}
+header p{
+	text-align:center;
+	color:#fff;
+	font-size:0.4rem;
+}
+div{
+	height:10rem;
+	width:100%;
+	position:relative;
+	bottom:0;
+	background:gray;
+	opacity: 0.7;
+}
+button{
+	border-radius: 20%;
+	height:1rem;
+	width:2rem;
+	background:rgba(100,10,298,.5);
+	position: absolute;
+	top:4rem;
+	left:2rem;
+    font-size: 0.2rem;
+}
