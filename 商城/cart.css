@@ -1,27 +1,41 @@
-header{
-	line-height: 1rem;
-	background:rgba(33,20,0,.9);
+.all img{
+	width:100%;
 }
-header p{
+.head{
+	height:1rem;
+	width:100%;
+	background:#fff;
 	text-align:center;
-	color:#fff;
+}
+.head img{
+	float:left;
+	margin-left:2%;
+	margin-top:0.2rem;
+}
+.head span{
+	color:#000;
 	font-size:0.4rem;
 }
-div{
-	height:10rem;
+.content{
 	width:100%;
-	position:relative;
+	position:fixed;
+	top:1.3rem;
 	bottom:0;
 	background:gray;
-	opacity: 0.7;
+	opacity: 0.5;
+}
+.content img{
+	position: absolute;
+	top:2rem;
+	left:2rem;
 }
 button{
-	border-radius: 20%;
-	height:1rem;
+	height:0.6rem;
 	width:2rem;
-	background:rgba(100,10,298,.5);
+	background:#000;
 	position: absolute;
+	color:#fff;
 	top:4rem;
 	left:2rem;
     font-size: 0.2rem;
-}
+}*/
