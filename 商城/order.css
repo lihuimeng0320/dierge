@@ -1,6 +1,5 @@
 body{
 	background:gray;
-	opacity: 0,8;
 }
 .all img{
 	width:100%;
@@ -15,13 +14,13 @@ body{
 .head img{
 	float:left;
 	padding-left:2%;
-	margin-top:0.2rem;
+	margin-top:0.3rem;
 }
 .head span{
 	line-height: 1rem;
 	color:#000;
-	font-size:0.4rem;
-	font-weight: bolder;
+	font-size:0.3rem;
+	opacity: 0.8;
 }
 .address{
 	height:1.2rem;
@@ -38,7 +37,7 @@ body{
 .left{
 	display:inline-block;
 	padding-top:0.1rem;
-	font-size:0.3rem;
+	font-size:0.2rem;
 	margin-right: 30%;
 }
 
@@ -59,8 +58,140 @@ body{
 	font-size:19px;
 }
 .order{
-	margin-top:0.1rem;
+	padding-top: 0.1rem;
+	margin-top:0.2rem;
 	height:2rem;
 	width:100%;
 	background: #fff;
 }
+.top{
+	width:70%;
+	font-size: 0.3rem;
+	opacity: 0.8;
+}
+.bottom{
+	margin-top:-0.5rem;
+	width:70%;
+	font-size:0.2rem;
+	opacity: 0.5;
+}
+.price{
+    margin-left: 30%;
+	color:blue;
+	font-size:0.2rem;
+}
+.order-bottom img{
+	margin-top:0.8rem;
+	float:left;
+	margin-right:2%;
+}
+.right{
+	float:right;
+}
+.quan{
+	padding-top: 0.1rem;
+	margin-top:0.2rem;
+	height:1rem;
+	width:100%;
+	background: #fff;
+	font-size:0.2rem;
+	line-height: 0.5rem;
+}
+.quan-left{
+	float:left;
+	opacity: 0.8;
+}
+.quan-right{
+	margin-left:80%;
+	color:blue;
+}
+.quan-rr{
+	margin-left: 64%;
+	opacity: 0.4;
+}
+.message{
+	padding-top: 0.1rem;
+	margin-top:0.2rem;
+	height:0.8rem;
+	width:100%;
+	background: #fff;
+	font-size:0.2rem;
+}
+.wrapper p{
+	line-height: 0.8rem;
+	opacity:0.3;
+	font-size: 0.3rem;
+}
+.money{
+	padding-top: 0.1rem;
+	margin-top:0.2rem;
+	height:1.3rem;
+	width:100%;
+	background: #fff;
+	font-size:0.2rem;
+	line-height: 0.5rem;
+}
+.money-a{
+	margin-left:64%;
+}
+.money-b{
+	margin-left:71%;
+}
+.money-c{
+	margin-left:68%;
+}
+.zhifu{
+	padding-top: 0.1rem;
+	margin-top:0.3rem;
+	height:1.5rem;
+	width:100%;
+	background: #fff;
+	font-size:0.2rem;
+}
+.zhifu-bottom{
+	float:left;
+}
+.a{
+	margin-top: -0.2rem;
+}
+.zhifu-right{
+	margin-left:76%;
+}
+.aa{
+	padding-top:0.8rem;
+}
+.true{
+	margin-top:0.2rem;
+	height:0.5rem;
+	width:100%;
+	background: black;
+	color:#fff;
+}
+.true p{
+	line-height:0.5rem;
+	font-size:16px;
+}
+.pay{
+	padding-left: 5%;
+	height:1rem;
+	background:#fff;
+	width:95%;
+	font-size:0.4rem;
+}
+.line{
+	height:1rem;
+	line-height: 1rem;
+}
+.pay-pay{
+	color:#000;
+}
+.pay-money{
+	color:blue;
+}
+.pay button{
+	display:block;
+    width:2rem;
+    height:1rem;
+    float:right;
+    background:blue;
+    color:#fff;}
