@@ -1,0 +1,89 @@
+.father{
+	display:flex;
+	height:1rem;
+	background:#252b38;
+	width:100%;
+	position:fixed;
+	bottom:0;
+	line-height: 1rem;
+}
+.father a{
+	flex-grow:1;
+	font-size: 0.2rem;
+	text-align: center;
+}
+.father img{
+	padding-top: 0.1rem;
+	width:100%;
+	height:1rem;
+	line-height: 1rem;
+}
+header img{
+	width:100%;
+}
+.head {
+	padding-top:0.1rem;
+	position:relative;
+	height:0.8rem;
+}
+.head div{
+	position: absolute;
+	font-size:0.3rem;
+	left:45%;
+}
+.head img{
+	height:0.4rem;
+	position: absolute;
+	left:90%;
+}
+body{
+	background:#f0f0f0;
+	margin-bottom: 1.1rem;
+}
+.content{
+	position: relative;
+	width:90%;
+	margin:auto;
+	height:7rem;
+	background: #fff;
+	margin-bottom:10%;
+}
+.touxiang{
+	position: absolute;
+	left:5%;
+	top:4%;
+}
+.content-content{
+	font-size:0.2rem;
+	position: absolute;
+	left:20%;
+	top:4%;
+}
+.img{
+	position: absolute;
+	top:14%;
+	width:100%;
+}
+.font{
+	position: absolute;
+	font-size:0.2rem;
+	top:8%;
+	left:20%;
+}
+.data{
+	position: absolute;
+	font-size:0.2rem;
+	top:6%;
+	left:60%;
+	color:#d2d2d2;
+}
+.content p{
+	left:6%;
+	right:6%;
+	position: absolute;
+	top:80%;
+	font-size: 0.2rem;
+	color:#d2d2d2;
+}
+
+

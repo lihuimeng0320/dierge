@@ -1,0 +1,85 @@
+body{
+	background:#f0f0f0;
+}
+.all img{
+	width:100%;
+}
+.head{
+	height:0.8rem;
+	width:100%;
+	background:#fff;
+	text-align:center;
+	margin-bottom:0.2rem;
+}
+.head img{
+	float:left;
+	padding-left:2%;
+	margin-top:0.3rem;
+}
+.head span{
+	line-height: 1rem;
+	color:#000;
+	font-size:0.3rem;
+}
+.wrapper{
+	margin-top: 10%;
+	width:90%;
+	margin:auto;
+	line-height: 0.4rem;
+}
+.order{
+	padding-top: 0.1rem;
+	margin-top:0.2rem;
+	height:3rem;
+	width:100%;
+	background: #fff;
+	position: relative;
+}
+.top{
+	margin-top: 0.2rem;
+	margin-left: 2%;
+	width:65%;
+	font-size: 0.3rem;
+}
+.bottom{
+	margin-top:-0.8rem;
+	width:65%;
+	font-size:0.2rem;
+	color:#bbbbbb;
+}
+.order-bottom img{
+	margin-top:0.8rem;
+	float:left;
+	margin-right:2%;
+}
+.up{
+	margin-top: 0.3rem;
+	display:inline-block;
+}
+.right{
+	float:right;
+}
+.pay{
+	font-size:0.2rem;
+	margin-left: 50%;
+	margin-top:-4%;
+	margin-bottom:0.2rem;
+}
+.price{
+	color:#81ccfb;
+}
+.wait{
+	margin-top: 0.3rem;
+	color:#81ccfb;
+	font-size:0.2rem;
+}
+button{
+	margin-top: 0.3rem;
+	color:#81ccfb;
+	border:1px solid #81ccfb;
+	width:20%;
+	height:0.5rem;
+	font-size:0.2rem;
+	background: #fff;
+	margin-left:60%;
+}
