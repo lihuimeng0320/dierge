@@ -165,18 +165,34 @@ body{
 	background: #fff;
 	font-size:0.2rem;
 }
-.zhifu-bottom{
-	float:left;
+.baba{
+	position:relative;
 }
-.a{
-	margin-top: -0.2rem;
+.bb,.aa{
+	position:absolute;
+	top:0.1rem;
+	left:80%;
 }
-.zhifu-right{
-	margin-left:84%;
+.zhifu-bottom {
+	position: absolute;
+	top: 0.1rem;
+	left: 0%;
 }
-.aa{
-	padding-top:0.8rem;
+.zhifu-down{
+	position: absolute;
+	top:0.6rem;
+	left:0%;
+
 }
+.d{
+	display:none;
+}
+.ee,.ff{
+	position:absolute;
+	top:0.6rem;
+	left:80%;
+}
+
 .true{
 	margin-top:0.2rem;
 	height:0.5rem;
@@ -215,7 +231,7 @@ body{
 	float:right;
 	background:#28314e;
 	color:#fff;}
-.plus,.add{
+#plus,#add{
 	width:22%;
 	height:0.3rem;
 	background:#fff;
@@ -223,10 +239,10 @@ body{
 	border:2px solid #ccc;
 	font-size: 0.2rem;
 }
-.plus{
+#plus{
 	border-radius:20px 0 0 20px;
 }
-.add{
+#add{
 	border-radius: 0 20px 20px 0;
 
 }

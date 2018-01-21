@@ -1,0 +1,263 @@
+header img{
+	width:100%;
+}
+body{
+	background:#eff0f0;
+}
+.back{
+	width:100%;
+	height:0.5rem;
+	background:#f6f7f7;
+}
+.back img{
+	margin-left: 10%;
+}
+.total p{
+	font-size:0.2rem;
+	color:#191c28;
+/*	margin:auto;*/
+}
+.first{
+	margin:auto;
+	width:50%;
+}
+.total .last{
+	margin:auto;
+	width:60%;
+	margin-bottom: 0.2rem;
+}
+.total h2{
+	font-size:0.2rem;
+	width:20%;
+	margin:auto;
+}
+.middle img{
+	width:98%;
+	margin:0.2rem auto;
+}
+.xq{
+	font-size:0.1rem;
+	width:24%;
+	margin:0.3rem auto;
+	color:#999999;
+}
+.style{
+	margin-top:0.3rem;
+	margin-bottom:0.3rem;
+	font-size:0.1rem;
+	text-align: center;
+	line-height: 0.2rem;
+	margin-left:5%;
+	background:#191c28;
+	color:#fff;
+	width:10%;
+	height:0.2rem;
+}
+.jieshao{
+	color:#191c28;
+	width:90%;
+	margin: 0.2rem auto;
+	font-size: 0.1rem;
+}
+.jieshao p{
+	margin-top:0.1rem;
+}
+.pic{
+	width:90%;
+	margin:auto;
+}
+.pic img{
+	width:100%;
+	margin-top:0.1rem;
+}
+.float{
+	width:80%;
+	margin:auto;
+	height:5rem;
+}
+ul{
+	width:100%;
+}
+ul li{
+	width:36%;
+	float:left;
+	height:3.5rem;
+	margin-bottom: 0.2rem;
+}
+ul div{
+	color:#555555;
+	font-size:14px;
+	opacity: 0.8;
+	margin-bottom:0.2rem;
+}
+ul span{
+	color:#242a37;
+	font-weight: bolder;
+}
+.right{
+	margin-left: 25%;
+}
+footer{
+	width:100%;
+	height:1rem;
+	display:inline;
+}
+.father{
+	float:left;
+	background: #fff;
+	height:1rem;
+	width:48%;
+	display:flex;
+}
+.father img{
+	margin-top: 0.2rem;
+	width:20%;
+	height:0.8rem;
+	flex-grow:1;
+}
+.cart{
+	height:1rem;
+	line-height: 1rem;
+	width:26%;
+	background:#a5a8b2;
+	color:#fff;
+	font-size: 0.2rem;
+	display: inline;
+	margin-right: 0;
+	border:0;
+}
+.buy{
+	width:24%;
+	font-size:0.2rem;
+	background:#28314e;
+	color:#fff;
+	height:1rem;
+	line-height: 1rem;
+	display: inline;
+	margin-left: 0;
+	border:0;
+}
+#container{
+	position: relative;
+	width: 80%;
+	margin:4% auto;
+}
+#imgs img{
+	display: none;
+}
+#imgs .selected{
+	display: block;
+}
+.totall{
+	position: relative;
+	font-size: 0.2rem;
+	height:2.5rem;
+}
+.totall img{
+	width:30%;
+	position: absolute;
+	top:0.1rem;
+	left:5%
+
+}
+.totall .aa{
+	position: absolute;
+   width:50%;
+	top:0.3rem;
+	left:45%;
+}
+.totall .bb{
+	position: absolute;
+	width:50%;
+	top:1.3rem;
+	left:45%;
+}
+.color{
+	width:90%;
+	margin:auto;
+	height:1.3rem;
+	font-size: 0.2rem;
+}
+.color div{
+	margin:0.1rem 0;
+}
+.color button{
+	margin:0.1rem 0;
+	width:20%;
+	height:0.3rem;
+	border:0;
+	background: #fff;
+	border-radius:20px;
+}
+.size{
+	 width:90%;
+	 margin:auto;
+	 height:1.3rem;
+	 font-size: 0.2rem;
+ }
+.size div{
+	margin:0.1rem 0;
+}
+.size button{
+	margin:0.1rem 0;
+	width:30%;
+	height:0.3rem;
+	border:1px solid #ccc;
+	background: #fff;
+	border-radius:20px;
+}
+.bbb{
+	width:90%;
+	margin:auto;
+	height:1.2rem;
+	font-size: 0.2rem;
+}
+.bbb .aaa{
+	margin:0.1rem 0;
+}
+#plus,#add{
+	width:16%;
+	height:0.4rem;
+	background:#fff;
+	color:#000;
+	border:2px solid #ccc;
+	font-size: 0.2rem;
+}
+#plus{
+	border-radius:20px 0 0 20px;
+}
+#add{
+	border-radius: 0 20px 20px 0;
+
+}
+.button{
+	height:0.6rem;
+	background:#28314e;
+	width:100%;
+	font-size:0.2rem;
+	color:#fff;
+}
+
+.jiaru{
+	position:absolute;
+	bottom:-20rem;
+	width:100%;
+	left:0;
+}
+.body {
+	width:100%;
+	position: relative;
+	height: 40rem;
+	overflow: hidden;
+}
+input{
+	border:0;
+	width:3%;
+}
+.color button:hover{
+	background:#28314e;
+
+}
+.size button:hover{
+	background:#28314e;
+}

@@ -1,6 +1,17 @@
 header img{
 width:100%;	
 }
+header{
+	position: relative;
+}
+header div{
+	top:0.6rem;
+	left:5%;
+	position: absolute;
+	background:transparent;
+	width:6%;
+	height:0.3rem;
+}
 .topic {
 text-align:center;
 font-size:18px;

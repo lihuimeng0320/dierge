@@ -1,4 +1,5 @@
 .father{
+	background: #fff;
 	display:flex;
 	height:1rem;
 	width:100%;
@@ -25,6 +26,8 @@
 	margin-bottom: 1rem;
 }
 .top{
+	width:10%;
+	height:0.4rem;
 	position: absolute;
 	bottom:0.2rem;
 	right:4%;
