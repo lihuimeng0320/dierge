@@ -4,6 +4,10 @@ header img{
 }
 body{
 	background:#eff0f0;
+	margin-bottom: 1.1rem;
+}
+.body{
+	height:36rem;
 }
 .back{
 	width:100%;
@@ -79,7 +83,6 @@ body{
 .float{
 	width:80%;
 	margin:auto;
-	height:5rem;
 }
 ul{
 	width:100%;
@@ -109,11 +112,12 @@ footer{
 	display:inline;
 }
 .father{
-	float:left;
 	background: #fff;
 	height:1rem;
-	width:48%;
+	width:50%;
 	display:flex;
+	position: fixed;
+	bottom:0;
 }
 .father img{
 	margin-top: 0.2rem;
@@ -122,6 +126,9 @@ footer{
 	flex-grow:1;
 }
 .cart{
+	position: fixed;
+	right:24%;
+	bottom:0;
 	height:1rem;
 	line-height: 1rem;
 	width:26%;
@@ -129,10 +136,12 @@ footer{
 	color:#fff;
 	font-size: 0.2rem;
 	display: inline;
-	margin-right: 0;
 	border:0;
 }
 .buy{
+	position: fixed;
+	right:0;
+	bottom:0;
 	width:24%;
 	font-size:0.2rem;
 	background:#28314e;
